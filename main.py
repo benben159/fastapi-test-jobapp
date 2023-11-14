@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from .router import emprouter
+from employee_api.router import emprouter
 
 app = FastAPI()
 app.include_router(emprouter)
